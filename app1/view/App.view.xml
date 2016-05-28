@@ -12,6 +12,11 @@
 		</pages>
 	</Carousel>
 	<Button
-		text="Say Hello!"
-		press="onShowHello"/>	
+		text="{i18n>showHelloButtonText}"
+		press="onShowHello"/>
+		<Input
+			value="{helloPanel>/recipient/name}"
+			description="{ parts: [{path: 'i18n>helloMsg'}, {path: 'helloPanel>/recipient/name'}], formatter: 'jQuery.sap.formatMessage' }"
+			valueLiveUpdate="true"
+			width="60%"/>
 </mvc:View>
