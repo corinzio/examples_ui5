@@ -1,0 +1,33 @@
+{
+  "run": [
+    {
+      "filePath": "/webapp/index.html",
+      "previewMode": 1,
+      "dataMode": 1,
+      "workspace": "withoutWorkspace",
+      "ui5ActiveVersion": null,
+      "ui5VerSource": null,
+      "isDefaultVersion": 0,
+      "urlParameters": [
+        {
+          "paramName": "",
+          "paramValue": ""
+        }
+      ],
+      "urlParametersNotNeeded": false,
+      "hashParameter": "",
+      "backendSystem": [
+        {
+          "source": "ES4",
+          "destinations": "ES4"
+        }
+      ],
+      "_metadata": {
+        "id": 4407832,
+        "runnerId": "webapprunner",
+        "displayName": "Configuration",
+        "lastRunTimeStamp": 1466170983762
+      }
+    }
+  ]
+}
